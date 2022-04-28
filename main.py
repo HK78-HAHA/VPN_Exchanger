@@ -17,7 +17,6 @@ form_class1 = uic.loadUiType(work_dir + "/resource/screen1.ui")[0]
 form_class2 = uic.loadUiType(work_dir + "/resource/screen2.ui")[0]
 form_class3 = uic.loadUiType(work_dir + "/resource/screen3.ui")[0]
 home_dir=os.path.expanduser('~')
-#work_dir=os.path.join("c:/","PROGRA~1","test")
 
 br_text="""[%s VPN 등록 메뉴입니다.]
 첫번째 칸에 VPN ID를 입력합니다.
@@ -205,7 +204,7 @@ class Command:
                 proc.kill()
             process.kill()
         except:
-            dialog = Dialog_open("VPN 클라이언트가 실행중이 아닙니다.22")
+            dialog = Dialog_open("VPN 클라이언트가 실행중이 아닙니다.")
             dialog.exec_()
 
 class PW_Dialog(object):
