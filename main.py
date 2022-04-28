@@ -204,7 +204,7 @@ class Command:
                 proc.kill()
             process.kill()
         except:
-            dialog = Dialog_open("VPN 클라이언트가 실행중이 아닙니다.22")
+            dialog = Dialog_open("VPN 클라이언트가 실행중이 아닙니다.")
             dialog.exec_()
 
 class PW_Dialog(object):
