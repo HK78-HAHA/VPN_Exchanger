@@ -1,0 +1,4 @@
+cffi==1.15.1
+docutils==0.20.1
+pycparser==2.21
+six==1.16.0
